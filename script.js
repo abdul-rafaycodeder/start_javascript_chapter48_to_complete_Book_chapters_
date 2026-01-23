@@ -1,6 +1,3 @@
-// alert("It is working")
+//----------------chapter 1, alert----------------//
 
-console.log("console chal raha hai")
-
-
-
+alert("chal raha hai")
