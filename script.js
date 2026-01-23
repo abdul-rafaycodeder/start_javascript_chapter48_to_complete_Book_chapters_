@@ -1,3 +1,3 @@
-alert("It is working")
+// alert("It is working")
 
-console.log("yar")
+console.log("console chal raha hai")
