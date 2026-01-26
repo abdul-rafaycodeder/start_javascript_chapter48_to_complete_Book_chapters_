@@ -124,15 +124,19 @@
 // console.log("myName==>", myName)
 
 
-var yourTicketNumber = prompt("number", 487208)
+// var yourTicketNumber = prompt("number", 487208)
 
-if (yourTicketNumber == 487208) {
-    alert("Better luck next time.");
-} else {
-    alert("Better luck this time come to my room")
-}
+// if (yourTicketNumber == 487208) {
+//     alert("Better luck next time.");
+// } else {
+//     alert("Better luck this time come to my room")
+// }
 
 
 //----------------chapter 2, if...else and else if statements----------------//
+
+
+
+
 
 
