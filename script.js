@@ -85,6 +85,23 @@
 
 //----------------chapter 2, Concatenating text strings----------------//
 
-var name =prompt("enter your name")
+// let num = prompt("enter your age","20")
 
-console.log(name)
+// console.log(num)
+
+// var smg = "enter your age";
+
+// var ageNumber = 20;
+
+// prompt(smg,ageNumber)
+
+
+//----------------chapter 2, if statements----------------//
+
+var uname = prompt("enter your name");
+
+if (uname == "rafay") {
+    alert("chal raha hai",uname)
+} else{
+    alert("sahi nahi hai",uname)
+}
