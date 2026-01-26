@@ -70,5 +70,19 @@
 // console.log(test)
 
 
-var smg = "chal raha hai"
+// var smg = "chal raha hai";
+
+// alert("hi " + smg + " sahi hai ")
+
+// var fname = "Thanks ";
+
+// var m = "abdul rafay"
+
+// var lname = "! "
+
+// console.warn(fname + m + lname)
+
+
+//----------------chapter 2, Concatenating text strings----------------//
+
 
