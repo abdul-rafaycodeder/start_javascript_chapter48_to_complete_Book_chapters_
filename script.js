@@ -98,13 +98,21 @@
 
 //----------------chapter 2, if statements----------------//
 
-var x = " rafay";
-var y = " osama"
+// var x = " rafay";
+// var y = " osama"
 
-var uname = prompt("enter your name");
+// var uname = prompt("enter your name");
 
-if (uname == "rafay") {
-    alert("chal raha hai" +  x)
-} else {
-    alert("sahi nahi hai" +  y)
+// if (uname == "rafay") {
+//     alert("chal raha hai" +  x)
+// } else {
+//     alert("sahi nahi hai" +  y)
+// }
+
+var prompt = prompt("enter your name")
+
+var myName = "rafay";
+
+if (x === myName){
+    
 }
