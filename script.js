@@ -135,3 +135,19 @@
 
 //----------------chapter 2, if...else and else if statements----------------//
 
+// var p = prompt("name")
+
+// if(name === "rafay"){
+//     alert("chal raha hai")
+// }
+
+
+var prompT = prompt("name")
+
+if (prompT === "rafay") {
+    alert("first if chal raha hai")
+}
+
+if(prompT === "osama"){
+    alert("second if chal raha hai")
+} 
