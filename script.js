@@ -135,8 +135,3 @@
 
 //----------------chapter 2, if...else and else if statements----------------//
 
-
-
-
-
-
