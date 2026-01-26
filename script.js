@@ -109,10 +109,16 @@
 //     alert("sahi nahi hai" +  y)
 // }
 
-var prompt = prompt("enter your name")
+var uname = prompt("enter your name")
 
 var myName = "rafay";
 
-if (x === myName){
-    
+if (uname === myName) {
+    alert('chal raha hai')
+} else {
+    alert("nahi chal raha")
 }
+
+console.log("uname==>",uname)
+
+console.log("myName==>",myName)
