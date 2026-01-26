@@ -109,16 +109,25 @@
 //     alert("sahi nahi hai" +  y)
 // }
 
-var uname = prompt("enter your name")
+// var uname = prompt("enter your name")
 
-var myName = "rafay";
+// var myName = "rafay";
 
-if (uname === myName) {
-    alert('chal raha hai')
+// if (uname === myName) {
+//     alert('chal raha hai')
+// } else {
+//     alert("nahi chal raha")
+// }
+
+// console.log("uname==>", uname)
+
+// console.log("myName==>", myName)
+
+
+var yourTicketNumber = prompt("number", 487208)
+
+if (yourTicketNumber == 487208) {
+    alert("Better luck next time.");
 } else {
-    alert("nahi chal raha")
+    alert("Better luck this time come to my room")
 }
-
-console.log("uname==>",uname)
-
-console.log("myName==>",myName)
