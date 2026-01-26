@@ -131,3 +131,8 @@ if (yourTicketNumber == 487208) {
 } else {
     alert("Better luck this time come to my room")
 }
+
+
+//----------------chapter 2, if...else and else if statements----------------//
+
+
