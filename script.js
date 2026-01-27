@@ -29,7 +29,7 @@
 // console.log(newNum)
 
 
-//----------------chapter 2, Variable Names Legal and Illegal----------------//
+// ----------------chapter 2, Variable Names Legal and Illegal----------------//
 
 
 
@@ -130,6 +130,9 @@
 //     console.log("nahi chal raha")
 // }
 
+//----------------chapter 2, Array----------------//
+
+
 // var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
 
 
@@ -138,6 +141,15 @@
 
 // alert("Welcome to " + cities[3]);
 
-var name;
+// var pets = [];
 
-console.log(name)
+// pets[0] = "dog";
+// pets[1] = "cat";
+// pets[2] = "bird";
+// pets[3] = "rafay";
+
+// console.log(pets)
+// console.log(pets[4])
+
+
+
