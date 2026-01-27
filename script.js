@@ -119,3 +119,13 @@
 // if (x !== "Vatican") {
 //     alert("Wrong answer");
 // }
+
+// var weight = prompt('enter your weight');
+// var time = prompt('enter your time');
+// var gender = prompt('whats your gender')
+
+// if (weight >= 300 && time <= 6 && gender === "male") {
+//     console.log("Chal raha hai")
+// } else {
+//     console.log("nahi chal raha")
+// }
