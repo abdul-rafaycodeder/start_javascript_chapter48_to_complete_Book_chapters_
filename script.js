@@ -98,56 +98,7 @@
 
 //----------------chapter 2, if statements----------------//
 
-// var x = " rafay";
-// var y = " osama"
+// var name  = prompt("app ka naam kya hai","my name is rafay");
 
-// var uname = prompt("enter your name");
+// console.log(name)
 
-// if (uname == "rafay") {
-//     alert("chal raha hai" +  x)
-// } else {
-//     alert("sahi nahi hai" +  y)
-// }
-
-// var uname = prompt("enter your name")
-
-// var myName = "rafay";
-
-// if (uname === myName) {
-//     alert('chal raha hai')
-// } else {
-//     alert("nahi chal raha")
-// }
-
-// console.log("uname==>", uname)
-
-// console.log("myName==>", myName)
-
-
-// var yourTicketNumber = prompt("number", 487208)
-
-// if (yourTicketNumber == 487208) {
-//     alert("Better luck next time.");
-// } else {
-//     alert("Better luck this time come to my room")
-// }
-
-
-//----------------chapter 2, if...else and else if statements----------------//
-
-// var p = prompt("name")
-
-// if(name === "rafay"){
-//     alert("chal raha hai")
-// }
-
-
-var prompT = prompt("name")
-
-if (prompT === "rafay") {
-    alert("first if chal raha hai")
-}
-
-if(prompT === "osama"){
-    alert("second if chal raha hai")
-} 
