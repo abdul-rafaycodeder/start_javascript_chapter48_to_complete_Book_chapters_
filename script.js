@@ -98,7 +98,7 @@
 
 //----------------chapter 2, if statements----------------//
 
-// var name  = prompt("app ka naam kya hai","my name is rafay");
+var p = prompt("enter your age")
 
-// console.log(name)
+
 
