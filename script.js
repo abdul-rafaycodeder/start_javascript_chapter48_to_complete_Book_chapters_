@@ -130,9 +130,14 @@
 //     console.log("nahi chal raha")
 // }
 
-var city0 = "Atlanta";
-var city1 = "Baltimore";
-var city2 = "Chicago";
-var city3 = "Denver";
-var city4 = "Los Angeles";
-var city5 = "Seattle";
+// var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+
+
+// console.log(cities[2]);
+// console.log(cities.length);
+
+// alert("Welcome to " + cities[3]);
+
+var name;
+
+console.log(name)
