@@ -151,13 +151,13 @@
 // console.log(pets)
 // console.log(pets[4])
 
-var names = ["rafay","osama"];
+// var names = ["rafay","osama"];
 
-names.push("ali","bilal","we7890sdfghjkl")
+// names.push("ali","bilal","we7890sdfghjkl")
 
- 
 
-console.log(names)
+
+
 
 
 
