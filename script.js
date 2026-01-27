@@ -112,3 +112,10 @@
 //     alert("sahi hai")
 // }
 
+var x = prompt("Where does the Pope live?");
+if (x === "Vatican") {
+    alert("Correct!");
+}
+if (x !== "Vatican") {
+    alert("Wrong answer");
+}
