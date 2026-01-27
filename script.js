@@ -98,7 +98,17 @@
 
 //----------------chapter 2, if statements----------------//
 
-var p = prompt("enter your age")
+// var p = prompt("enter your age")
 
+// if (p === "20"){
+//     alert("sahi chal raha hai")
+// } else {
+//     alert("ya naaam sahi nahi hai")
+// }
 
+// var name = "rafay";
+
+// if (p === name){
+//     alert("sahi hai")
+// }
 
