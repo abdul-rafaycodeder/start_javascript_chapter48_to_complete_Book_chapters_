@@ -177,12 +177,4 @@
 
 // console.log(pets)
 
-var fruits = [];
 
-fruits.push("apple","banana","mango");
-
-fruits.unshift("orange");
-
-fruits.pop();
-
-console.log(fruits)
