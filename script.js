@@ -46,6 +46,7 @@
 
 // var newNum = ++num1;
 
+
 // console.log(newNum);
 
 // var number = ((2 * 4) * 4) + 2;
@@ -170,6 +171,18 @@
 
 // }
 
-var pets = [dog, cat, bird];
+// var pets = ['dog', 'cat', 'bird'];
 
-pets
+// pets.unshift('fish'); 
+
+// console.log(pets)
+
+var fruits = [];
+
+fruits.push("apple","banana","mango");
+
+fruits.unshift("orange");
+
+fruits.pop();
+
+console.log(fruits)
