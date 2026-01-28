@@ -155,10 +155,21 @@
 
 // names.push("ali","bilal","we7890sdfghjkl")
 
+// var array = ["rafay","ali"];
 
+// array.unshift("ali")
 
+// console.log(array)
 
+//----------------chapter 1, For loop----------------//
 
+// var array = ["rafay","ali","56f"];
 
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i])
+    
+// }
 
+var array = [];
 
+console.log(array)
