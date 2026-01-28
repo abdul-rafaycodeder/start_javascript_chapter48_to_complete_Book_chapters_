@@ -167,9 +167,9 @@
 
 // for (let i = 0; i < array.length; i++) {
 //     console.log(array[i])
-    
+
 // }
 
-var array = [];
+var pets = [dog, cat, bird];
 
-console.log(array)
+pets
