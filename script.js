@@ -215,3 +215,23 @@ var image = "rafay"
 // let result = myCalculator(5, 5);
 // console.log(result);
 
+// function innerFunction() {
+//     console.log('rafay')
+//     console.log("khan");
+// }
+
+// function main(fname, test) {
+//     console.log(fname);
+//     test();
+// }
+// main("ali", innerFunction);
+
+function calculate(a, b, callback) {
+    return callback(a, b);
+}
+
+function multi(p, q) {
+    return p * q;
+}
+
+console.log(calculate(5, 10, multi));
