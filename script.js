@@ -226,12 +226,20 @@ var image = "rafay"
 // }
 // main("ali", innerFunction);
 
-function calculate(a, b, callback) {
-    return callback(a, b);
-}
+// function calculate(a, b, callback) {
+//     return callback(a, b);
+// }
 
-function multi(p, q) {
-    return p * q;
-}
+// function multi(p, q) {
+//     return p * q;
+// }
 
-console.log(calculate(5, 10, multi));
+// console.log(calculate(5, 10, multi));
+
+
+var arr = [1, 2, 3, 4, 5];
+
+var mapArr = arr.map(function (num) {
+    return num + 3;
+});
+console.log(mapArr);
