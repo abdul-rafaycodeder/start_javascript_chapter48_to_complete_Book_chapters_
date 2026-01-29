@@ -181,7 +181,7 @@ var image = "rafay"
 
 // 
 
-console.log('hello world')
+// console.log('hello world')
 
 
 // function main(fname, test) {
@@ -191,4 +191,27 @@ console.log('hello world')
 
 // main("ali", innerFunction);
 
+// function myFirst() {
+//     console.log('hello')
+// }
+
+// function mySecond() {
+//     console.log('goodBye')
+// }
+
+// mySecond()
+// myFirst()
+
+
+// function myDisplayer(some) {
+//     document.getElementById("demo").innerHTML = some;
+// }
+
+// function myCalculator(num1, num2) {
+//     let sum = num1 + num2;
+//     return sum;
+// }
+
+// let result = myCalculator(5, 5);
+// console.log(result);
 
