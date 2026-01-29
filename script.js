@@ -182,3 +182,13 @@ var image = "rafay"
 // 
 
 console.log('hello world')
+
+
+// function main(fname, test) {
+//     console.log(fname);
+//     test();
+// }
+
+// main("ali", innerFunction);
+
+
