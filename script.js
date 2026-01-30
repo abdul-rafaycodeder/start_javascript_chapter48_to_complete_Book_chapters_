@@ -313,6 +313,14 @@
 //     console.log('ye naam nahi hai');
 // }
 
+// ------------javascript function---------//
 
 
+
+function functionName(){
+    console.log('hello world')
+}
+
+
+functionName();
 
