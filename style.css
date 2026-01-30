@@ -1,3 +1,25 @@
-body{
+body {
     background-color: black;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Example height to center within the full screen */
+}
+
+/* Optional styling for the centered div */
+.centered-div {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
 }
