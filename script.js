@@ -332,15 +332,15 @@
 // console.log(multiply(1, 10));
 
 
-function addNumbers(a, b) {
-    return a + b;
-    
-}
+// function addNumbers(a, b) {
+//     return a + b;
 
-addNumbers();
+// }
 
-var num1 = addNumbers(20.20);
-var num2 = addNumbers(20,30);
+// addNumbers();
 
-console.log(num1)
-console.log(num2)
+// var num1 = addNumbers(20.20);
+// var num2 = addNumbers(20,30);
+
+// console.log(num1)
+// console.log(num2)
