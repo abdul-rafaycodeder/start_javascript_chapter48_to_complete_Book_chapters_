@@ -177,7 +177,7 @@
 
 // console.log(pets)
 
-var image = "rafay"
+// var image = "rafay"
 
 // 
 
@@ -237,9 +237,9 @@ var image = "rafay"
 // console.log(calculate(5, 10, multi));
 
 
-var arr = [1, 2, 3, 4, 5];
+// var arr = [1, 2, 3, 4, 5];
 
-var mapArr = arr.map(function (num) {
-    return num + 3;
-});
-console.log(mapArr);
+// var mapArr = arr.map(function (num) {
+//     return num + 3;
+// });
+// console.log(mapArr);
