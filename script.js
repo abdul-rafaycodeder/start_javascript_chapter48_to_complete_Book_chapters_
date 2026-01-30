@@ -256,11 +256,39 @@
 //     }
 // }
 
-var arr2 = [1, 2, 3, 4, 5];
+// var arr2 = [1, 2, 3, 4, 5];
 
-let i = 5;
+// let i = 5;
 
-for (let i = 2; i < arr2.length; i++) {
-    console.log(arr2[i])
+// for (let i = 2; i < arr2.length; i++) {
+//     console.log(arr2[i])
+
+// }
+
+// ----------------wow--------------------//
+
+
+// var changeCase = prompt('ENTER NAME');
+// var changeCase2;
+
+// changeCase = changeCase.toUpperCase();
+// changeCase2 = changeCase.toLowerCase();
+
+// console.log(changeCase);
+// console.log(changeCase2);
+
+var changeCase = ['rafay', 'ali', 'osama', 'bilal'];
+var prompT = prompt('enter name')
+
+for (let i = 0; i >= changeCase.length; i++) {
+
+    if (prompT == changeCase[i]) {
+        console.log('ya naam hai')
+        break;
+    } else {
+        console.log('ya naam nahi hai')
+        break;
+    }
 
 }
+
