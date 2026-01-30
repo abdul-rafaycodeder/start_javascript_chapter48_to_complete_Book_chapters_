@@ -277,18 +277,39 @@
 // console.log(changeCase);
 // console.log(changeCase2);
 
+// var changeCase = ['rafay', 'ali', 'osama', 'bilal'];
+// var prompT = prompt('enter name')
+
+// for (let i = 0; i < changeCase.length; i++) {
+
+//     if (prompT == changeCase[i]) {
+//         console.log('ya naam hai')
+//         break;
+//     } else {
+//         console.log('ya naam nahi hai')
+//         break;
+//     }
+
+// }
+
+
 var changeCase = ['rafay', 'ali', 'osama', 'bilal'];
-var prompT = prompt('enter name')
+var prompT = prompt('enter name');
 
-for (let i = 0; i >= changeCase.length; i++) {
+var found = false;
 
-    if (prompT == changeCase[i]) {
-        console.log('ya naam hai')
-        break;
-    } else {
-        console.log('ya naam nahi hai')
+for (let i = 0; i < changeCase.length; i++) {
+    if (prompT === changeCase[i]) {
+        found = true;
         break;
     }
-
 }
+
+if (found) {
+    console.log('ye naam hai');
+} else {
+    console.log('ye naam nahi hai');
+}
+
+
 
