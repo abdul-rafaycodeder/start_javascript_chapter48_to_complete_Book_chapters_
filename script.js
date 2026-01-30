@@ -243,3 +243,24 @@
 //     return num + 3;
 // });
 // console.log(mapArr);
+
+// ------for lopp------------------
+
+// var arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+
+//     if (arr[i] === 3) {
+//         alert('chal raha hai==>')
+//         console.log(arr[i])
+//     }
+// }
+
+var arr2 = [1, 2, 3, 4, 5];
+
+let i = 5;
+
+for (let i = 2; i < arr2.length; i++) {
+    console.log(arr2[i])
+
+}
