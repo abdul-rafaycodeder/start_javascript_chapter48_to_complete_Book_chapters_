@@ -320,13 +320,13 @@
 // function call() { console.log('hello'), { mane: 'ali', age: 20 } }
 // call()
 
-call();  // functions uper call karo ya nicha call hota hai 
+ // functions uper call karo ya nicha call hota hai 
 
-const functionCall = 'rafay'
+// const functionCall = 'rafay'
 
-function call() {
-    console.log('hello kya hall hai');
-}
+// function call() {
+//     console.log('hello kya hall hai');
+// }
 
 // this is a Function parameters ==> ( ) 
 
@@ -347,15 +347,27 @@ function name() {
     console.log('rafay')
 }
 
-console.log(name())
+ 
 
 function name() {
     //this Function is executed, But not a define
 }
 
-function name(){
+function name() {
     //this function is define 
 }
+name()
 
+function name() {
+    return 1 + 1;
+    //Function value return kar sakta hai
+}
 
+function FunctionName(a, b) {
+    return a + b;
+    //A Function Can Be Used Many Times
+}
+
+console.log(FunctionName(1,1))
+console.log(FunctionName(1,2))
 
