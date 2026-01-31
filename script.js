@@ -149,6 +149,7 @@
 // pets[2] = "bird";
 // pets[3] = "rafay";
 
+
 // console.log(pets)
 // console.log(pets[4])
 
@@ -316,5 +317,45 @@
 // ------------javascript function---------//
 
 
-function call () {console.log('hello')}
+// function call() { console.log('hello'), { mane: 'ali', age: 20 } }
+// call()
+
+call();  // functions uper call karo ya nicha call hota hai 
+
+const functionCall = 'rafay'
+
+function call() {
+    console.log('hello kya hall hai');
+}
+
+// this is a Function parameters ==> ( ) 
+
+function name() {
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    return 1 + 2;
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+    console.log('rafay')
+}
+
+console.log(name())
+
+function name() {
+    //this Function is executed, But not a define
+}
+
+function name(){
+    //this function is define 
+}
+
+
 
