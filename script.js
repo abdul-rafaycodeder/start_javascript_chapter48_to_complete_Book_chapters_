@@ -386,11 +386,19 @@ test();
 
 
 function toCelsius(f) {
-  return (f - 40) * 5 / 9;
+  return f - 10
 }
 
-let text = "The temperature is " + toCelsius(77) + " Celsius";
+let text = "The temperature is " + toCelsius(40) + " Celsius";
 console.log(text);
 
+
+
+// function multiply(a, b) {
+//   return a + b;
+// }
+
+// console.log(multiply(2, 3)); // 5
+// console.log(multiply(5, 4)); // 9
 
 
