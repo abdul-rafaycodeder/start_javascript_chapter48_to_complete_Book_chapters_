@@ -316,29 +316,3 @@
 // ------------javascript function---------//
 
 
-
-// function functionName(){
-//     console.log('hello world')
-// }
-
-
-// functionName();
-
-// function multiply(a, b) {
-//     return a % b;
-// }
-
-
-// console.log(multiply(1, 10));
-
-
-function addNumbers(a, b) {
-    return a + b;
-    
-}
-
-addNumbers();
-
-var num1 = addNumbers(20.20);
-var num2 = addNumbers(20,30);
-
