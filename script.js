@@ -316,3 +316,5 @@
 // ------------javascript function---------//
 
 
+function call () {console.log('hello')}
+
