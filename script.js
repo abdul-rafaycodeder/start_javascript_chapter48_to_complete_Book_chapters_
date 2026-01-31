@@ -381,6 +381,16 @@ function test() {
 }
 
 test();
-console.log(x)
+// console.log(x)
 // console.log(x); ❌ error, kyun ke x local hai
+
+
+function toCelsius(f) {
+  return (f - 40) * 5 / 9;
+}
+
+let text = "The temperature is " + toCelsius(77) + " Celsius";
+console.log(text);
+
+
 
