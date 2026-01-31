@@ -368,6 +368,19 @@ function FunctionName(a, b) {
     //A Function Can Be Used Many Times
 }
 
-console.log(FunctionName(1,1))
-console.log(FunctionName(1,2))
+var num = FunctionName(1,2);
+var num2 = FunctionName(1,3);
+
+console.log(num)
+console.log(num2)
+
+
+function test() {
+  let x = 10; // yeh local variable hai local variable sirf function k liya hi hota hai
+  console.log(x);
+}
+
+test();
+console.log(x)
+// console.log(x); ❌ error, kyun ke x local hai
 
