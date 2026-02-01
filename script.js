@@ -410,13 +410,13 @@ let checkFunction = `this is a number ${number(20)} nice `
 console.log(checkFunction)
 
 
-function sayHello(){
+function sayHello() {
     return 'my name is abdul rafay';
 }
 
 document.getElementById('demo').innerHTML = sayHello()
 
-function functionName(){
+function functionName() {
     return 'hi whats up'
 }
 
@@ -430,3 +430,18 @@ console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
+
+function name() {
+    return 'hi';
+}
+
+console.log(name())
+
+
+function sayHello() {
+    return 'hello world nice ';
+}
+
+function show() {
+    document.getElementById('demo').innerHTML = sayHello()
+}
