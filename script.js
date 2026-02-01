@@ -409,8 +409,10 @@ let checkFunction = `this is a number ${number(20)} nice `
 
 console.log(checkFunction)
 
-function fName(){
-    return 'hi my name is abdul rafay';
+
+function sayHello(){
+    return 'my name is abdul rafay';
 }
 
-console.log(fName())
+document.getElementById('demo').innerHTML = sayHello()
+
