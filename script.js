@@ -320,7 +320,7 @@
 // function call() { console.log('hello'), { mane: 'ali', age: 20 } }
 // call()
 
- // functions uper call karo ya nicha call hota hai 
+// functions uper call karo ya nicha call hota hai 
 
 // const functionCall = 'rafay'
 
@@ -347,7 +347,7 @@ function name() {
     console.log('rafay')
 }
 
- 
+
 
 function name() {
     //this Function is executed, But not a define
@@ -368,16 +368,16 @@ function FunctionName(a, b) {
     //A Function Can Be Used Many Times
 }
 
-var num = FunctionName(1,2);
-var num2 = FunctionName(1,3);
+var num = FunctionName(1, 2);
+var num2 = FunctionName(1, 3);
 
 console.log(num)
 console.log(num2)
 
 
 function test() {
-  let x = 10; // yeh local variable hai local variable sirf function k liya hi hota hai
-  console.log(x);
+    let x = 10; // yeh local variable hai local variable sirf function k liya hi hota hai
+    console.log(x);
 }
 
 test();
@@ -386,7 +386,7 @@ test();
 
 
 function toCelsius(f) {
-  return f - 10
+    return f - 10
 }
 
 let text = "The temperature is " + toCelsius(40) + " Celsius";
@@ -401,4 +401,16 @@ console.log(text);
 // console.log(multiply(2, 3)); // 5
 // console.log(multiply(5, 4)); // 9
 
+function number(num1) {
+    return num1 + 20;
+}
 
+let checkFunction = `this is a number ${number(20)} nice `
+
+console.log(checkFunction)
+
+function fName(){
+    return 'hi my name is abdul rafay';
+}
+
+console.log(fName())
