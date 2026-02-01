@@ -416,3 +416,17 @@ function sayHello(){
 
 document.getElementById('demo').innerHTML = sayHello()
 
+function functionName(){
+    return 'hi whats up'
+}
+
+let a = functionName();
+let b = functionName();
+let c = functionName();
+let d = functionName();
+
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
