@@ -439,9 +439,9 @@ console.log(name())
 
 
 function sayHello() {
-    return 'hello world nice ';
+    return 'hello world nice';
 }
 
 function show() {
-    document.getElementById('demo').innerHTML = sayHello()
+    document.getElementById('change').innerHTML = sayHello()
 }
