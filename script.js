@@ -414,7 +414,7 @@ function sayHello() {
     return 'my name is abdul rafay';
 }
 
-document.getElementById('demo').innerHTML = sayHello()
+// document.getElementById('demo').innerHTML = sayHello()
 
 function functionName() {
     return 'hi whats up'
@@ -445,3 +445,12 @@ function sayHello() {
 function show() {
     document.getElementById('change').innerHTML = sayHello()
 }
+
+
+function sayHello(name) {
+  return "Hello " + name;
+}
+
+let greeting = sayHello("rafay");
+
+console.log(greeting)
