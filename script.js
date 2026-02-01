@@ -447,10 +447,8 @@ function show() {
 }
 
 
-function sayHello(name) {
-  return "Hello " + name;
+function Many(FirstName,lastName){
+    return FirstName + lastName;
+    
 }
-
-let greeting = sayHello("rafay");
-
-console.log(greeting)
+console.log(Many('rafay ','khan'))
