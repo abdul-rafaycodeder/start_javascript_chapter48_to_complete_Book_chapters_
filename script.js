@@ -398,6 +398,8 @@ console.log(text);
 //   return a + b;
 // }
 
+
+
 // console.log(multiply(2, 3)); // 5
 // console.log(multiply(5, 4)); // 9
 
