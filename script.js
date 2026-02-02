@@ -455,9 +455,19 @@
 // }
 // console.log(Many('rafay ', 'khan'))
 
-function name(a, b) {
-    return a + b;
+function func(a, b , c , d) {
+    return a + b + (c + d);
 }
-const check = name(1,3);
-
+const check = func(1 , 3 , 5 , 4);
 console.log(check)
+
+function para (myName){
+    return `Hello ${myName}`
+}
+console.log(para('rafay'));
+
+function name (number){
+    return (5 + 5) + (number - 40)
+}
+console.log(name(50));
+
