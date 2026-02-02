@@ -455,19 +455,37 @@
 // }
 // console.log(Many('rafay ', 'khan'))
 
-function func(a, b , c , d) {
+function func(a, b, c, d) {
     return a + b + (c + d);
 }
-const check = func(1 , 3 , 5 , 4);
+const check = func(1, 3, 5, 4);
 console.log(check)
 
-function para (myName){
+function para(myName) {
     return `Hello ${myName}`
 }
 console.log(para('rafay'));
 
-function name (number){
+function name(number) {
     return (5 + 5) + (number - 40)
 }
 console.log(name(50));
 
+function allName(firstName, midelName, lastName) {
+    return `Hello ${firstName} ${midelName} ${lastName}`
+}
+console.log(allName('abdul', 'rafay', 'khan'))
+
+function check2(number2) {
+    return number2 + 5;
+}
+var incorret = check2(10)
+
+console.log((incorret))
+
+function check3(num1, num2 = 10) {
+    return num1 + num2
+}
+
+var value = check3(5)
+console.log(value)         
