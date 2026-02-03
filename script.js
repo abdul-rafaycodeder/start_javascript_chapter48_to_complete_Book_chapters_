@@ -524,10 +524,7 @@ function multiply(a, b) {
 
 multiply(4, 5);
 
-var name = 'rafay';
-
-
-
+// 
 function findMax() {
   let max = -Infinity;
   for (let i = 0; i < arguments.length; i++) {
@@ -538,7 +535,5 @@ function findMax() {
   return max;
 }
 
-
-
-let check1 = findMax(1, 123, 500, 44,1000);
+let check1 = findMax(1001,1, 123, 500, 44,1000);
 console.log(check1)
