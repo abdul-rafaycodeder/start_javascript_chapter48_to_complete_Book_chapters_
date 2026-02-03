@@ -516,4 +516,29 @@ function result(){
 result()
 
 // -----------javascript function Arguments-----------//
+// this is the javascript function Arguments
 
+function multiply(a, b) {
+  return a + b;
+}
+
+multiply(4, 5);
+
+var name = 'rafay';
+
+
+
+function findMax() {
+  let max = -Infinity;
+  for (let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }
+  }
+  return max;
+}
+
+
+
+let check1 = findMax(1, 123, 500, 44,1000);
+console.log(check1)
