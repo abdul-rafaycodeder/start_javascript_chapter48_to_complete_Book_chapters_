@@ -550,7 +550,16 @@ console.log(resultchange)
 function multiply(a, b) {
   return a * b;
 }
-
 console.log(multiply(4)); // NaN
+// 
+
+function sum3(a,b){
+    if (b == undefined){
+        b = 10
+    }
+    return a + b;
+}
+console.log(sum3(1));
+
 // 
 
