@@ -537,3 +537,12 @@ function findMax() {
 
 let check1 = findMax(1001,1, 123, 500, 44,1000);
 console.log(check1)
+// 
+function sum(a,b){
+    return a - b;
+}
+var result = sum(10,10);
+var resultchange = sum(10,10);
+console.log(result)
+console.log(resultchange)
+// 
