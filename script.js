@@ -546,3 +546,16 @@ var resultchange = sum(10,10);
 console.log(result)
 console.log(resultchange)
 // 
+// function sun2(){
+//     return a + b;
+// }
+
+
+// console.log(sum(a,b))
+
+
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(4)); // NaN
