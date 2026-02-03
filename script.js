@@ -490,4 +490,15 @@ function check3(num1, num2 = 10) {
 var value = check3(5)
 console.log(value)         
 
-function
+function fname(firstName,midelName,lastName){
+    return `Hello ${firstName} ${midelName} ${lastName}`
+}
+var value = fname('abdul','rafay','khan');
+console.log(value)
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+let change = toCelsius();
+console.log(change)
