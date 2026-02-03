@@ -489,3 +489,5 @@ function check3(num1, num2 = 10) {
 
 var value = check3(5)
 console.log(value)         
+
+function
