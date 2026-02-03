@@ -502,3 +502,18 @@ function toCelsius(fahrenheit) {
 
 let change = toCelsius();
 console.log(change)
+
+function name(a,b){
+    return a + b;
+}
+let rafay = name(10,10) + 10;
+console.log(rafay);
+
+function result(){
+    let num = 10;
+    console.log(num)
+}
+result()
+
+// -----------javascript function Arguments-----------//
+
