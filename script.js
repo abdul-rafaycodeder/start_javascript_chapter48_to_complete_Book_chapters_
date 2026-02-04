@@ -488,28 +488,28 @@ function check3(num1, num2 = 10) {
 }
 
 var value = check3(5)
-console.log(value)         
+console.log(value)
 
-function fname(firstName,midelName,lastName){
+function fname(firstName, midelName, lastName) {
     return `Hello ${firstName} ${midelName} ${lastName}`
 }
-var value = fname('abdul','rafay','khan');
+var value = fname('abdul', 'rafay', 'khan');
 console.log(value)
 
 function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
+    return (5 / 9) * (fahrenheit - 32);
 }
 
 let change = toCelsius();
 console.log(change)
 
-function name(a,b){
+function name(a, b) {
     return a + b;
 }
-let rafay = name(10,10) + 10;
+let rafay = name(10, 10) + 10;
 console.log(rafay);
 
-function result(){
+function result() {
     let num = 10;
     console.log(num)
 }
@@ -519,42 +519,42 @@ result()
 // this is the javascript function Arguments
 
 function multiply(a, b) {
-  return a + b;
+    return a + b;
 }
 
 multiply(4, 5);
 
 // 
 function findMax() {
-  let max = -Infinity;
-  for (let i = 0; i < arguments.length; i++) {
-    if (arguments[i] > max) {
-      max = arguments[i];
+    let max = -Infinity;
+    for (let i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
     }
-  }
-  return max;
+    return max;
 }
 
-let check1 = findMax(1001,1, 123, 500, 44,1000);
+let check1 = findMax(1001, 1, 123, 500, 44, 1000);
 console.log(check1)
 // 
-function sum(a,b){
+function sum(a, b) {
     return a - b;
 }
-var result = sum(10,10);
-var resultchange = sum(10,10);
+var result = sum(10, 10);
+var resultchange = sum(10, 10);
 console.log(result)
 console.log(resultchange)
 // 
 
 function multiply(a, b) {
-  return a * b;
+    return a * b;
 }
 console.log(multiply(4)); // NaN
 // 
 
-function sum3(a,b){
-    if (b == undefined){
+function sum3(a, b) {
+    if (b == undefined) {
         b = 10
     }
     return a + b;
@@ -563,13 +563,16 @@ console.log(sum3(1));
 // 
 
 
-const multiplychnage = function(a, b) {
-  return a + b;
-};
+// const multiplychnage = function(a, b) {
+//   return a + b;
+// };
 
- console.log(multiplychnage);
-
- 
+//  console.log(multiplychnage);
 
 
+const Vname = function (a, b) {
+    return a + b;
+}
 
+var value = Vname;
+console.log(value)
