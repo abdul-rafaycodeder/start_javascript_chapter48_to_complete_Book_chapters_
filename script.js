@@ -570,9 +570,13 @@ console.log(sum3(1));
 //  console.log(multiplychnage);
 
 
-const Vname = function (a, b) {
-    return a + b;
+
+function run(fn) {
+  return fn();
 }
 
-var value = Vname;
-console.log(value)
+const sayHello = function() {
+  return "rafay";
+};
+
+run(sayHello);
