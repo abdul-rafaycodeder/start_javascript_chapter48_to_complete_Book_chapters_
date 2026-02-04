@@ -563,3 +563,13 @@ console.log(sum3(1));
 // 
 
 
+const multiplychnage = function(a, b) {
+  return a + b;
+};
+
+ console.log(multiplychnage);
+
+ 
+
+
+
