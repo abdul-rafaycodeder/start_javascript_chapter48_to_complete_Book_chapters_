@@ -569,7 +569,7 @@ console.log(sum3(1));
 
 //  console.log(multiplychnage);
 
-
+// -----------------------function expreetion
 
 function run(fn) {
   return fn();
