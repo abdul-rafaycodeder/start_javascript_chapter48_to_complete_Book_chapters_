@@ -580,3 +580,16 @@ const sayHello = function() {
 };
 
 run(sayHello);
+
+
+console.log(add(2, 3)); // ✅ works
+
+function add(a, b) {
+  return a + b;
+}
+
+// console.log(change5(2, 3)); // ❌ error
+
+// const change5 = function(a, b) {
+//   return a + b;
+// };
