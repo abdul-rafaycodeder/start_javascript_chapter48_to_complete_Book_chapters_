@@ -594,7 +594,18 @@
 // //   return a + b;
 // // };
 
-// //---------------------------JavaScript Function Definitions-------------------------//
+//---------------------------JavaScript Objects--------------------------------------//
+
+const Obj = {
+    firstName: 'abdul',
+    lastName: 'rafay',
+    fullName: 'abdul rafay'
+}
+console.log(Obj,["firstName"])
+
+
+
+//---------------------------JavaScript Function Definitions-------------------------//
 
 
 function name(a, b) {
@@ -606,16 +617,18 @@ console.log(result)
 var value = function valuecheck(a, b) {
     return a + b;
 }
-var check = value(30,30)
+var check = value(30, 30)
 console.log(check)
 
-var chcek2 = function(a,b){
+var chcek2 = function (a, b) {
     return a + b;
 }
-var result2 = chcek2(100,100);
+var result2 = chcek2(100, 100);
 console.log(result2);
 
-var check3 = ()=>{
-    
-}
+var check3 = (a, b) => { return a + b; }
+console.log(check3(1, 2))
+
+
+
 
