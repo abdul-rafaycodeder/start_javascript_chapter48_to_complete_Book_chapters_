@@ -593,3 +593,7 @@ function add(a, b) {
 // const change5 = function(a, b) {
 //   return a + b;
 // };
+
+//---------------------------JavaScript Function Definitions-------------------------//
+
+
