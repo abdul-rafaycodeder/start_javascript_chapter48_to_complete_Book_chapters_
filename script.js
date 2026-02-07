@@ -627,12 +627,20 @@
 // })
 // console.log(cars.carName);
 
-// const names = {
-//     firstName: "John",
-//     lastName: "Doe"
-// }
+const names = {
+    firstName: "John",
+    lastName: "Doe"
+}
 
-// console.log(names["firstName"],names['lastName'])
+var result = names;
+delete names['firstName'];
+delete names['lastName'];
+names.age = 40;
+names.age2 = 30;
+names.age3 = 20;
+delete names.age3
+delete names.age2
+console.log(result)
 
 const person = {
     check: 'abdul rafay',
@@ -645,7 +653,7 @@ const person = {
 };
 // var result = person.fullName();
 // console.log(result);
-console.log(person.fullName())
+// console.log(person.fullName())
 
 //---------------------------JavaScript Function Definitions-------------------------//
 
