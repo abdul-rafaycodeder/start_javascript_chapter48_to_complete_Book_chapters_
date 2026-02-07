@@ -627,12 +627,21 @@
 // })
 // console.log(cars.carName);
 
-const names = {
-    firstName: "John",
-    lastName: "Doe"
-}
+// const names = {
+//     firstName: "John",
+//     lastName: "Doe"
+// }
 
-console.log(names["firstName"])
+// console.log(names["firstName"],names['lastName'])
+
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  age      : 50,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
 
 //---------------------------JavaScript Function Definitions-------------------------//
 
