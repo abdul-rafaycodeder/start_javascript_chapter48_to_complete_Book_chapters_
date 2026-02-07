@@ -596,14 +596,43 @@
 
 //---------------------------JavaScript Objects--------------------------------------//
 
-const Obj = {
-    firstName: 'abdul',
-    lastName: 'rafay',
-    fullName: 'abdul rafay'
+// const Obj = {
+//     firstName: 'abdul',
+//     lastName: 'rafay',
+//     fullName: 'abdul rafay'
+// }
+// console.log(Obj.fullName)
+
+// const obj2 = { car: 'BMW', carModel: '1999', carPrice: "250k" }
+// console.log(obj2.carPrice)
+
+// var obj3 = {}
+// obj3.studentName = 'ali',
+// console.log(obj3.studentName)
+
+
+// const person = new Object({
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+// });
+
+
+
+// const cars = new Object({
+//     carName: 'BMW',
+//     carModel: '1920',
+//     carprice: '350k'
+// })
+// console.log(cars.carName);
+
+const names = {
+    firstName: "John",
+    lastName: "Doe"
 }
-console.log(Obj,["firstName"])
 
-
+console.log(names["firstName"])
 
 //---------------------------JavaScript Function Definitions-------------------------//
 
