@@ -635,13 +635,15 @@
 // console.log(names["firstName"],names['lastName'])
 
 const person = {
-  firstName: "John",
-  lastName : "Doe",
-  age      : 50,
-  fullName : function() {
-    return this.firstName + " " + this.lastName;
-  }
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+    fullName: function () {
+        this.firstName + " " + this.lastName;
+    }
 };
+var result = person.fullName();
+console.log(result);
 
 //---------------------------JavaScript Function Definitions-------------------------//
 
