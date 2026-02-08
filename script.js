@@ -650,15 +650,82 @@
 // var value = changeperson in lastName
 // console.log(value)
 
-myObj = {
-    name: "John",
-    age: 30,
-    myCars: {
-        car1: "Ford",
-        car2: "BMW",
-        car3: "Fiat"
+// myObj = {
+//     name: "John",
+//     age: 30,
+//     myCars: {
+//         car1: "Ford",
+//         car2: "BMW",
+//         car3: "Fiat"
+//     }
+// }
+
+// const company = {
+//     name: "TechSoft",
+//     employee: {
+//         emp1: {
+//             name: "John",
+//             salary: 50000
+//         },
+//         emp2: {
+//             name: "Sara",
+//             salary: 60000
+//         }
+//     }
+// };
+// var value = company.employee.emp1.name + ' ' + company.employee.emp2.salary
+// console.log(value)
+
+
+// const order = {
+//     orderId: 101,
+//     customer: {
+//         name: "Ahmed",
+//         contact: {
+//             phone: "03001234567",
+//             city: "Lahore"
+//         }
+//     },
+//     product: {
+//         name: "Laptop",
+//         price: 80000
+//     }
+// };
+// order.product.price = 900000
+// var value = order.customer.contact.phone + ' ' + order.product.price;
+// console.log(value)
+
+
+const students = [
+    {
+        name: "Ali",
+        marks: {
+            math: 80,
+            english: 70,
+            science: 90
+        }
+    },
+    {
+        name: "Sara",
+        marks: {
+            math: 60,
+            english: 85,
+            science: 75
+        }
+    },
+    {
+        name: "John",
+        marks: {
+            math: 90,
+            english: 88,
+            science: 95
+        }
     }
-}
+];
+
+
+// var value = myObj.myCars.car3;
+// console.log(value)
 
 // var result = names;
 // delete names.lastName
