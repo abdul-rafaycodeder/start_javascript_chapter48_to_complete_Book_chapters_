@@ -646,10 +646,8 @@ const names = {
     firstName: "John",
     lastName: "Doe"
 }
+// var value = `first name ${names.firstName} last name ${names.lastName}`;
 
-var value = names.lastName;
-delete names.firstName;
-delete names.lastName;
 console.log(value)
 
 // var result = names;
@@ -667,7 +665,7 @@ console.log(value)
 //     }
 // };
 // var result = person.fullName();
-// console.log(result);
+// console.og(result);
 // console.log(person.fullName())
 
 //---------------------------JavaScript Function Definitions-------------------------//
