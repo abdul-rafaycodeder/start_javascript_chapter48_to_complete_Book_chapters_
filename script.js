@@ -647,6 +647,11 @@ const names = {
     lastName: "Doe"
 }
 
+var value = names.lastName;
+delete names.firstName;
+delete names.lastName;
+console.log(value)
+
 // var result = names;
 // delete names.lastName
 // names.age = 20;
