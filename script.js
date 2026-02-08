@@ -642,13 +642,23 @@
 // delete names.age2
 // console.log(result)
 
-const names = {
-    firstName: "John",
-    lastName: "Doe"
-}
-// var value = `first name ${names.firstName} last name ${names.lastName}`;
+// const changeperson = {
+//     fullName: 'abdul rafay',
+//     firstName: "John",
+//     lastName: "Doe"
+// }
+// var value = changeperson in lastName
+// console.log(value)
 
-console.log(value)
+myObj = {
+    name: "John",
+    age: 30,
+    myCars: {
+        car1: "Ford",
+        car2: "BMW",
+        car3: "Fiat"
+    }
+}
 
 // var result = names;
 // delete names.lastName
