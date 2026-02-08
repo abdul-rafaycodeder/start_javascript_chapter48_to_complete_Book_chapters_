@@ -627,30 +627,40 @@
 // })
 // console.log(cars.carName);
 
+// const names = {
+//     firstName: "John",
+//     lastName: "Doe"
+// }
+
+// var result = names;
+// delete names['firstName'];
+// delete names['lastName'];
+// names.age = 40;
+// names.age2 = 30;
+// names.age3 = 20;
+// delete names.age3
+// delete names.age2
+// console.log(result)
+
 const names = {
     firstName: "John",
     lastName: "Doe"
 }
 
-var result = names;
-delete names['firstName'];
-delete names['lastName'];
-names.age = 40;
-names.age2 = 30;
-names.age3 = 20;
-delete names.age3
-delete names.age2
-console.log(result)
+// var result = names;
+// delete names.lastName
+// names.age = 20;
+// console.log(result)
 
-const person = {
-    check: 'abdul rafay',
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    fullName: function () {
-        return this.firstName + " " + this.lastName + " " + this.check;
-    }
-};
+// const person = {
+//     check: 'abdul rafay',
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName + " " + this.check;
+//     }
+// };
 // var result = person.fullName();
 // console.log(result);
 // console.log(person.fullName())
