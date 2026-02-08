@@ -696,32 +696,52 @@
 // console.log(value)
 
 
-const students = [
-    {
-        name: "Ali",
-        marks: {
-            math: 80,
-            english: 70,
-            science: 90
-        }
-    },
-    {
-        name: "Sara",
-        marks: {
-            math: 60,
-            english: 85,
-            science: 75
-        }
-    },
-    {
-        name: "John",
-        marks: {
-            math: 90,
-            english: 88,
-            science: 95
-        }
-    }
-];
+// const students = [
+//     {
+//         name: "Ali",
+//         marks: {
+//             math: 80,
+//             english: 70,
+//             science: 90
+//         }
+//     },
+//     {
+//         name: "Sara",
+//         marks: {
+//             math: 60,
+//             english: 85,
+//             science: 75
+//         }
+//     },
+//     {
+//         name: "John",
+//         marks: {
+//             math: 90,
+//             english: 88,
+//             science: 95
+//         }
+//     }
+// ];
+
+// for (let i = 0; i < students.length; i++) {
+//     if (students[0] == ) {
+//         console.log('chal raha hai')
+//     } else {
+//          console.log('nahi chal raha')
+//     }
+// }
+
+// const object = {
+//     fristName: 'abdul',
+//     lastName: 'rafay',
+//     fullName: function name(){
+//         return this.fristName + ' ' + this.lastName
+//     }
+// }
+
+// let value = object.fullName();
+// console.log(value)
+
 
 
 // var value = myObj.myCars.car3;
@@ -748,26 +768,26 @@ const students = [
 //---------------------------JavaScript Function Definitions-------------------------//
 
 
-function name(a, b) {
-    return a + b;
-}
-var result = name(10, 10);
-console.log(result)
+// function name(a, b) {
+//     return a + b;
+// }
+// var result = name(10, 10);
+// console.log(result)
 
-var value = function valuecheck(a, b) {
-    return a + b;
-}
-var check = value(30, 30)
-console.log(check)
+// var value = function valuecheck(a, b) {
+//     return a + b;
+// }
+// var check = value(30, 30)
+// console.log(check)
 
-var chcek2 = function (a, b) {
-    return a + b;
-}
-var result2 = chcek2(100, 100);
-console.log(result2);
+// var chcek2 = function (a, b) {
+//     return a + b;
+// }
+// var result2 = chcek2(100, 100);
+// console.log(result2);
 
-var check3 = (a, b) => { return a + b; }
-console.log(check3(1, 2))
+// var check3 = (a, b) => { return a + b; }
+// console.log(check3(1, 2))
 
 
 
