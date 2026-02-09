@@ -742,6 +742,113 @@
 // let value = object.fullName();
 // console.log(value)
 
+// const check = {
+//     firstName: 'ali',
+//     lastName: 'khan'
+// }
+
+// check.name = function () {
+//     return (this.firstName + " " + this.lastName).toUpperCase();
+// };
+// var value = check;
+// delete check.name;
+// console.log(value)
+
+// const person1 = {
+//   name: "John",
+//   hello: function() {
+//     return "Hello " + this.name;
+//   }
+// };
+
+// const person2 = {
+//   name: "Anna",
+//   hello: function() {
+//     return "Hello " + this.name;
+//   }
+// };
+
+// function chnage() {
+//     var value = document.getElementById("demo").innerHTML = person2.hello();
+//     console.log(value)
+// }
+// chnage()
+
+// const inventory = {
+//   categories: [
+//     {
+//       name: "Electronics",
+//       products: [
+//         { name: "Phone", stock: 10 },
+//         { name: "Laptop", stock: 5 }
+//       ]
+//     },
+//     {
+//       name: "Accessories",
+//       products: [
+//         { name: "Charger", stock: 20 },
+//         { name: "Cable", stock: 0 }
+//       ]
+//     }
+//   ]
+// };
+
+// var result = inventory.categories[1].products[0].name
+// console.log(result)
+
+// const users = [
+//   {
+//     name: "Ali",
+//     orders: [
+//       { item: "Phone", price: 50000 },
+//       { item: "Headphones", price: 5000 }
+//     ]
+//   },
+//   {
+//     name: "Sara",
+//     orders: [
+//       { item: "Laptop", price: 90000 }
+//     ]
+//   },
+//   {
+//     name: "John",
+//     orders: []
+//   }
+// ];
+
+// var result = users[1].orders[0].price
+// console.log(result)
+
+// const company = {
+//   regions: [
+//     {
+//       name: "North",
+//       managers: [
+//         {
+//           name: "Ali",
+//           sales: [5000, 7000, 6000]
+//         },
+//         {
+//           name: "Sara",
+//           sales: [8000, 9000]
+//         }
+//       ]
+//     },
+//     {
+//       name: "South",
+//       managers: [
+//         {
+//           name: "John",
+//           sales: [4000, 3000]
+//         }
+//       ]
+//     }
+//   ]
+// };
+
+// var result = company.regions[0].managers[0].name + ' ' +  company.regions[0].managers[0].sales
+// console.log(result)
+
 
 
 // var value = myObj.myCars.car3;
