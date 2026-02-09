@@ -849,6 +849,103 @@
 // var result = company.regions[0].managers[0].name + ' ' +  company.regions[0].managers[0].sales
 // console.log(result)
 
+const deepData = {
+    company: {
+        info: {
+            name: "Tech Solutions",
+            location: {
+                country: "Pakistan",
+                city: "Karachi",
+                branches: ["Karachi", "Lahore", "Islamabad"]   // Array 1
+            }
+        },
+
+        departments: {
+            development: {
+                frontend: {
+                    teamLead: {
+                        id: 1,
+                        name: "Rafay",
+                        skills: ["HTML", "CSS", "JavaScript"]   // Array 2
+                    },
+                    developers: {
+                        dev1: {
+                            id: 2,
+                            projects: ["News Site", "Portfolio"] // Array 3
+                        },
+                        dev2: {
+                            id: 3,
+                            projects: ["Dashboard", "Admin Panel"] // Array 4
+                        }
+                    }
+                },
+
+                backend: {
+                    manager: {
+                        id: 4,
+                        name: "Ali",
+                        technologies: ["Node", "MongoDB", "API"] // Array 5
+                    }
+                }
+            },
+
+            design: {
+                head: {
+                    id: 5,
+                    name: "Osama",
+                    tools: ["Figma", "Photoshop", "Illustrator"] // Array 6
+                }
+            }
+        },
+
+        employees: {
+            management: {
+                director: {
+                    id: 6,
+                    name: "Bilal",
+                    responsibilities: ["Planning", "Budget", "Strategy"] // Array 7
+                }
+            },
+
+            hr: {
+                head: {
+                    id: 7,
+                    name: "Hassan",
+                    tasks: ["Hiring", "Interviews", "Records"] // Array 8
+                }
+            }
+        },
+
+        projects: {
+            active: {
+                projectA: {
+                    id: 8,
+                    teamMembers: ["Rafay", "Ali", "Osama"] // Array 9
+                }
+            },
+            completed: {
+                projectB: {
+                    id: 9,
+                    clients: ["ABC Corp", "XYZ Ltd"] // Array 10
+                }
+            }
+        },
+
+        system: {
+            admin: {
+                mainAdmin: {
+                    id: 10,
+                    access: {
+                        level: "Super",
+                        permissions: ["Read", "Write", "Delete"] // extra nested
+                    }
+                }
+            }
+        }
+    }
+};
+
+console.log(deepData);
 
 
 // var value = myObj.myCars.car3;
