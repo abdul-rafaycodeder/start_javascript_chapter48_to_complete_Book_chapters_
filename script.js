@@ -968,13 +968,8 @@
 // // console.og(result);
 // // console.log(person.fullName())
 
-const obj = {
-  firstName: 'abdul',
-  lastName: 'rafay',
-}
 
-var result = obj.firstName + ' ' + obj.lastName
-console.log(result)
+
 
 
 // //---------------------------JavaScript Function Definitions-------------------------//
