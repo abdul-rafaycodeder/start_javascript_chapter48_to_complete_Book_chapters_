@@ -970,9 +970,15 @@
 
 
 var object = {
-  name: 'rafay',
-  age: 20,
+  firstNane: 'abdul',
+  lastName: 'rafay',
+  fullName: function name(){
+    this.firstNane + ' ' + this.lastName;
+  }
 }
+
+var result = object.fullName()
+console.log(result)
 
 
 // //---------------------------JavaScript Function Definitions-------------------------//
