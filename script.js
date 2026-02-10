@@ -969,6 +969,10 @@
 // // console.log(person.fullName())
 
 
+var object = {
+  name: 'rafay',
+  age: 20,
+}
 
 
 
