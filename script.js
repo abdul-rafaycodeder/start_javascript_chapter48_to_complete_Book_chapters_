@@ -968,17 +968,19 @@
 // // console.og(result);
 // // console.log(person.fullName())
 
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   id: 5566,
+// };
 
-var object = {
-  firstNane: 'abdul',
-  lastName: 'rafay',
-  fullName: function name(){
-    this.firstNane + ' ' + this.lastName;
-  }
-}
-
-var result = object.fullName()
-console.log(result)
+// person.fullName = function (){
+//   return this.firstName
+// }
+// person.age = 40
+// var result = person;
+// var result = person.fullName();
+// console.log(result)
 
 
 // //---------------------------JavaScript Function Definitions-------------------------//
@@ -1005,5 +1007,9 @@ console.log(result)
 // // var check3 = (a, b) => { return a + b; }
 // // console.log(check3(1, 2))
 
-
-
+function name() {
+  for ( i = 0; i < 5; i++) {
+    console.log('rafay')
+  }
+}
+ name()
