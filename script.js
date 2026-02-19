@@ -1015,8 +1015,53 @@
 // // name()
 
 //---------------------------- advancd javascript, JavaScript Function Definitions-------------------------//
-
-function name(a,b){
+//function Declaration
+function name(a, b) {
     return a + b;
 }
-console.log(name())
+console.log(name(1, 2))
+
+//Function Expression (Named)
+const functionName = function name2(a, b) {
+    return a + b;
+}
+console.log(functionName(2, 10))
+
+//Function Expression (Anonymous)
+const functionName2 = function (a, b) {
+    return a + b;
+}
+console.log(functionName2(1, 3))
+
+//Arrow Function
+const ArrowFunction = (a, b) => {
+    return a + b;
+}
+console.log(ArrowFunction(1, 1))
+
+//Function Constructor
+function Name(fname,age, lname) {
+    this.fname = fname
+    this.age = age
+    this.lname = lname
+
+    this.data = function (){
+        console.log('chal raha hai')
+    }
+}
+console.log(Name(this.fname))
+
+//Object Method
+const obj = {
+    name3: 'ali',
+    age: 10,
+    Number: 3002121348,
+    data: function (a, b) {
+        return a + b;
+    }
+}
+console.log(obj.data(1, 2))
+
+function name(){
+    return
+}
