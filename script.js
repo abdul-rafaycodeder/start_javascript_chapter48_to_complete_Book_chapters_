@@ -174,13 +174,13 @@
 
 // // // // // // var pets = ['dog', 'cat', 'bird'];
 
-// // // // // // pets.unshift('fish'); 
+// // // // // // pets.unshift('fish');
 
 // // // // // // console.log(pets)
 
 // // // // // // var image = "rafay"
 
-// // // // // // 
+// // // // // //
 
 // // // // // // console.log('hello world')
 
@@ -320,7 +320,7 @@
 // // // // // // function call() { console.log('hello'), { mane: 'ali', age: 20 } }
 // // // // // // call()
 
-// // // // // // functions uper call karo ya nicha call hota hai 
+// // // // // // functions uper call karo ya nicha call hota hai
 
 // // // // // // const functionCall = 'rafay'
 
@@ -328,7 +328,7 @@
 // // // // // //     console.log('hello kya hall hai');
 // // // // // // }
 
-// // // // // // this is a Function parameters ==> ( ) 
+// // // // // // this is a Function parameters ==> ( )
 
 // // // // // function name() {
 // // // // //     console.log('rafay')
@@ -354,7 +354,7 @@
 // // // // // }
 
 // // // // // function name() {
-// // // // //     //this function is define 
+// // // // //     //this function is define
 // // // // // }
 // // // // // name()
 
@@ -524,7 +524,7 @@
 
 // // // // multiply(4, 5);
 
-// // // // // 
+// // // // //
 // // // // function findMax() {
 // // // //     let max = -Infinity;
 // // // //     for (let i = 0; i < arguments.length; i++) {
@@ -537,7 +537,7 @@
 
 // // // // let check1 = findMax(1001, 1, 123, 500, 44, 1000);
 // // // // console.log(check1)
-// // // // // 
+// // // // //
 // // // // function sum(a, b) {
 // // // //     return a - b;
 // // // // }
@@ -545,13 +545,13 @@
 // // // // var resultchange = sum(10, 10);
 // // // // console.log(result)
 // // // // console.log(resultchange)
-// // // // // 
+// // // // //
 
 // // // // function multiply(a, b) {
 // // // //     return a * b;
 // // // // }
 // // // // console.log(multiply(4)); // NaN
-// // // // // 
+// // // // //
 
 // // // // function sum3(a, b) {
 // // // //     if (b == undefined) {
@@ -560,7 +560,7 @@
 // // // //     return a + b;
 // // // // }
 // // // // console.log(sum3(1));
-// // // // // 
+// // // // //
 
 
 // // // // // const multiplychnage = function(a, b) {
@@ -1014,8 +1014,9 @@
 // // }
 // // name()
 
+//---------------------------- advancd javascript, JavaScript Function Definitions-------------------------//
 
-
-
-
-
+function name(a,b){
+    return a + b;
+}
+console.log(name())
