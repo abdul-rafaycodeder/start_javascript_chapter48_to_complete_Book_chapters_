@@ -1040,12 +1040,12 @@ const ArrowFunction = (a, b) => {
 console.log(ArrowFunction(1, 1))
 
 //Function Constructor
-function Name(fname,age, lname) {
+function Name(fname, age, lname) {
     this.fname = fname
     this.age = age
     this.lname = lname
 
-    this.data = function (){
+    this.data = function () {
         console.log('chal raha hai')
     }
 }
@@ -1062,6 +1062,9 @@ const obj = {
 }
 console.log(obj.data(1, 2))
 
-function name(){
-    return
+function name() {
+    console.log(function name2() {
+
+    })
 }
+console.log(name())
